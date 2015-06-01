@@ -54,6 +54,14 @@ static CGSize contextSize;
 }
 
 
+//截取视图成image，不能在beginWithSize:和end之间使用。
++ (UIImage *)captureView:(UIView *)view
+{
+    [ZCImageCollage beginWithSize:view.frame.size];
+    [view.layer renderInContext:UIGraphicsGetCurrentContext()];
+    return [ZCImageCollage end];
+}
+
 #pragma mark - 
 #pragma mark - 工具
 

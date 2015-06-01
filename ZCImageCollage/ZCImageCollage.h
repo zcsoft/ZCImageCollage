@@ -28,5 +28,9 @@
 //结束并获得合成图片
 + (UIImage *)end;
 
+
+//截取视图成image，不能在beginWithSize:和end之间使用。
++ (UIImage *)captureView:(UIView *)view;
+
 @end
 

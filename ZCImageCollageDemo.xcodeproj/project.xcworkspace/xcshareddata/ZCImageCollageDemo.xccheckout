@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B89A3C95-0A0F-42C5-B339-44C46144C189</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZCImageCollageDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>372496F0AA050A1E2E08EE2088B08D16C0417836</key>
+		<string>https://github.com/zcsoft/ZCImageCollage.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZCImageCollageDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>372496F0AA050A1E2E08EE2088B08D16C0417836</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zcsoft/ZCImageCollage.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>372496F0AA050A1E2E08EE2088B08D16C0417836</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>372496F0AA050A1E2E08EE2088B08D16C0417836</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZCImageCollageDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

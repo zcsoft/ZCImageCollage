@@ -30,7 +30,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+//合并
 - (IBAction)buttonAction:(id)sender
 {
     UIImage *image1 = [UIImage imageNamed:@"1"];
@@ -54,10 +54,24 @@
     UIImage *newImage = [ZCImageCollage end];
     
     //保存到相册
-    UIImageWriteToSavedPhotosAlbum(newImage, nil, nil, nil);
+    //UIImageWriteToSavedPhotosAlbum(newImage, nil, nil, nil);
     
     //显示到界面
     [self.imageView setImage:newImage];
 }
+
+//截图
+- (IBAction)button2Action:(id)sender
+{
+    //创建画布
+    UIImage *newImage = [ZCImageCollage captureView:self.tagView];
+    
+    //保存到相册
+    //UIImageWriteToSavedPhotosAlbum(newImage, nil, nil, nil);
+    
+    //显示到界面
+    [self.imageView setImage:newImage];
+}
+
 
 @end
